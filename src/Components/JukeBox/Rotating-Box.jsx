@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "../Images/cameron-podcast.png";
-import Spotify2 from "../Spotify/Spotify2";
-import Spotify2_1 from "../Spotify/Spotify2-1";
-import Spotify2_2 from "../Spotify/Spotify2-2";
+import SpotifyCam from "../Spotify/Spotify2";
+import SpotifyCamTwo from "../Spotify/Spotify2-1";
+import SpotifyCamThree from "../Spotify/Spotify2-2";
 import './JukeBox.css'
 
 export default class RotatingBox extends React.Component {
@@ -14,13 +14,13 @@ export default class RotatingBox extends React.Component {
           <img src={Image} alt="" />
         </div>
         <div className="back-side" id="box">
-          <Spotify2_2></Spotify2_2>
+          <SpotifyCamThree/>
         </div>
         <div className="left-side" id="box">
-          <Spotify2></Spotify2>
+          <SpotifyCam/>
         </div>
         <div className="right-side" id="box">
-          <Spotify2_1></Spotify2_1>
+          <SpotifyCamTwo/>
         </div>
         <div className="top-side" id="box"></div>
         <div className="bottom-side" id="box"></div>

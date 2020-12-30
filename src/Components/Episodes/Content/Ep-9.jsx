@@ -14,7 +14,7 @@ export default class Ep9 extends Component {
                 <div className="modal-content">
                     <span className="close" onClick={this.handleClick}>&times;</span>
                     <iframe
-                        className="episode"
+                        title="episode-nine"
                         src="https://open.spotify.com/embed-podcast/episode/6GDvAhuUFyT8H6YOEfoTjJ"
                         frameborder="0"
                         allowtransparency="true"
