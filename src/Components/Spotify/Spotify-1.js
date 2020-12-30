@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import PlayWidget from "react-spotify-widgets";
+import "../JukeBox/JukeBox.css"
 
 class Spotify_1 extends Component {
   render() {
