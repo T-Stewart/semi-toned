@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2654b2fd.chunk.css",
+    "main.js": "/static/js/main.537332bb.chunk.js",
+    "main.js.map": "/static/js/main.537332bb.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9629a86a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9629a86a.js.map",
+    "static/js/2.bceb8a69.chunk.js": "/static/js/2.bceb8a69.chunk.js",
+    "static/js/2.bceb8a69.chunk.js.map": "/static/js/2.bceb8a69.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.43987d2880761d927ebfbaf0dcf273fa.js": "/precache-manifest.43987d2880761d927ebfbaf0dcf273fa.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.2654b2fd.chunk.css.map": "/static/css/main.2654b2fd.chunk.css.map",
+    "static/js/2.bceb8a69.chunk.js.LICENSE.txt": "/static/js/2.bceb8a69.chunk.js.LICENSE.txt",
+    "static/media/cameron-podcast.png": "/static/media/cameron-podcast.3431cca9.png",
+    "static/media/tom-podcast.png": "/static/media/tom-podcast.b3c462bc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9629a86a.js",
+    "static/js/2.bceb8a69.chunk.js",
+    "static/css/main.2654b2fd.chunk.css",
+    "static/js/main.537332bb.chunk.js"
+  ]
+}
