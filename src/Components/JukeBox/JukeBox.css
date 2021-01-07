@@ -16,14 +16,14 @@
     display: flex;
     left: 50%;
     top: 100%;
-    perspective: 1500px;
+    perspective: 1125px;
     margin-top: 10%;
   }
   .rotating-box-two {
     display: flex;
     right: 50%;
     top: 40%;
-    perspective: 1500px;
+    perspective: 1125px;
     margin-top: 10%;
   }
 }
@@ -33,20 +33,20 @@
     display: flex;
     left: 50%;
     top: 100%;
-    perspective: 1500px;
+    perspective: 1125px;
     margin-top: 50%;
   }
   .rotating-box-two {
     display: flex;
     right: 50%;
     top: 50%;
-    perspective: 1500px;
+    perspective: 1125px;
   }
 }
 #box {
   position: absolute;
-  height: 400px;
-  width: 400px;
+  height: 300px;
+  width: 300px;
   border: 2px solid rgb(255, 255, 255);
 }
 
@@ -62,37 +62,37 @@
 }
 
 .front-side {
-  transform: translateX(-200px) translateY(-200px) translateZ(200px);
+  transform: translateX(-150px) translateY(-150px) translateZ(150px);
   /* background-color: black; */
   background-color: rgba(140, 140, 139, 0.262);
 }
 
 .back-side {
-  transform: translateX(-200px) translateY(-200px) translateZ(-200px);
+  transform: translateX(-150px) translateY(-150px) translateZ(-150px);
   /* background-color: black; */
   background-color: rgba(140, 140, 139, 0.262);
 }
 
 .left-side {
-  transform: translateY(-200px) translateX(-400px) rotateY(90deg);
+  transform: translateY(-150px) translateX(-300px) rotateY(90deg);
   /* background-color: black; */
   background-color: rgba(140, 140, 139, 0.262);
 }
 
 .right-side {
-  transform: rotateY(-90deg) translateY(-200px);
+  transform: rotateY(90deg) translateY(-150px);
   /* background-color: black; */
   background-color: rgba(140, 140, 139, 0.262);
 }
 
 .top-side {
-  transform: translateX(-200px) translateY(-400px) rotateX(90deg);
+  transform: translateX(-150px) translateY(-300px) rotateX(90deg);
   /* background-color: black; */
   background-color: rgba(140, 140, 139, 0.262);
 }
 
 .bottom-side {
-  transform: rotateX(90deg) translateX(-200px);
+  transform: rotateX(90deg) translateX(-150px);
   /* background-color: black; */
   background-color: rgba(140, 140, 139, 0.262);
 }

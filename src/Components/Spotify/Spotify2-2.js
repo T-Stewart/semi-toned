@@ -7,8 +7,8 @@ class Spotify2_2 extends Component {
       <div className="spotify">
         <PlayWidget
           className="cam-three"
-          width={300}
-          height={395}
+          width={225}
+          height={295}
           uri={"spotify:playlist:37i9dQZF1E37JSQjyWQCs6"}
           lightTheme={true}
         />
