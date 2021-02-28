@@ -1,0 +1,16 @@
+.nav {
+    background-color: #8E443D;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 5px;
+    color: #120309;
+    background-color: #8E443D;
+}
+.btn:hover {
+    color: white;
+}

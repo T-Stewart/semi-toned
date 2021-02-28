@@ -1,41 +1,20 @@
 import React from "react";
 import "./App.css";
-import RotatingBox from "./Components/JukeBox/Rotating-Box";
-import RotatingBoxTwo from "./Components/JukeBox/Rotating-Box-Two";
-import EpisodeSelector from "./Components/Episodes/EpisodeSelector"
+import JukeBox from './Components/JukeBox/JukeBox';
+import About from './Components/About/About';
+import EpisodeSelector from "./Components/Episodes/EpisodeSelector";
+import Navbar from './Components/Navbar/Navbar'
+import {Route, Switch} from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
-      <div className="intro">
-      <h1>Semi-Toned Podcast</h1>
-      <p >Welcome to Semi-toned Podcast! Have a listen to what Cameron and Tom are listening to, or check out our podcast episodes</p>
-      </div>
-      <div>
-      <RotatingBox/>
-      <RotatingBoxTwo/>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <div>
-        <EpisodeSelector/>
-      </div>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+      <Navbar/>
+      <Switch>
+      <Route path="/" component={About} exact />
+      <Route path="/jukebox" component={JukeBox} exact />
+      <Route path="/episodes" component={EpisodeSelector} exact />
+      </Switch>
     </div>
   );
 }

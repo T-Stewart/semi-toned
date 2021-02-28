@@ -11,22 +11,6 @@
   perspective: 1500px;
 }
 
-@media only screen and (max-width: 1221px) {
-  .rotating-box {
-    display: flex;
-    left: 50%;
-    top: 100%;
-    perspective: 1125px;
-    margin-top: 10%;
-  }
-  .rotating-box-two {
-    display: flex;
-    right: 50%;
-    top: 40%;
-    perspective: 1125px;
-    margin-top: 10%;
-  }
-}
 
 @media only screen and (max-width: 550px) {
   .rotating-box {
@@ -106,4 +90,9 @@
   100% {
     transform: rotate3d(0, 1, 0, -360deg);
   }
+}
+
+.tom-left, .tom-back, .cam-left, .cam-back{
+    transform: rotateY(180deg);
+  
 }

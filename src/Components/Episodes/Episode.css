@@ -2,7 +2,6 @@
   display: grid;
   align-items: center;
   justify-content: center;
-  margin-top: 15%;
 }
 
 .button-wrapper {
@@ -28,36 +27,3 @@
   display: inline-block;
 }
 
-@media only screen and (max-width: 1221px) {
-  .wrapper {
-    margin-top: 75%;
-  }
-}
-
-@media only screen and (max-width: 950px) {
-  .wrapper {
-    margin-top: 90%;
-  }
-}
-
-@media only screen and (max-width: 850px) {
-  .wrapper {
-    margin-top: 100%;
-  }
-}
-
-@media only screen and (max-width: 750px) {
-  .wrapper {
-    margin-top: 110%;
-  }
-}
-@media only screen and (max-width: 650px) {
-  .wrapper {
-    margin-top: 120%;
-  }
-}
-@media only screen and (max-width: 550px) {
-  .wrapper {
-    margin-top: 200%;
-  }
-}
