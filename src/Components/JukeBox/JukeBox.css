@@ -15,16 +15,17 @@
   .rotating-box {
     display: flex;
     left: 50%;
-    top: 100%;
+    top: 110%;
     perspective: 1500px;
   }
   .rotating-box-two {
     display: flex;
-    right: 50%;
+    right: 40%;
     top: 50%;
     perspective: 1500px;
   }
 }
+
 #box {
   position: absolute;
   height: 300px;

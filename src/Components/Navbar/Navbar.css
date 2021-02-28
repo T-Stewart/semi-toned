@@ -33,3 +33,10 @@
 #cam-nav {
   margin-right: 10%;
 }
+
+@media only screen and (max-width: 500px) {
+  #tom-nav,
+  #cam-nav {
+    display: none;
+  }
+}
