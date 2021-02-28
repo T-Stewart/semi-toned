@@ -11,20 +11,18 @@
   perspective: 1500px;
 }
 
-
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 860px) {
   .rotating-box {
     display: flex;
     left: 50%;
     top: 100%;
-    perspective: 1125px;
-    margin-top: 50%;
+    perspective: 1500px;
   }
   .rotating-box-two {
     display: flex;
     right: 50%;
     top: 50%;
-    perspective: 1125px;
+    perspective: 1500px;
   }
 }
 #box {
@@ -34,15 +32,17 @@
   border: 2px solid rgb(255, 255, 255);
 }
 
-.single-rb {
+#single-rb {
   position: relative;
-  animation: rotate 30s linear infinite;
+  animation: rotate 12s linear infinite;
   transform-style: preserve-3d;
+  animation-play-state: paused;
 }
-.single-rb2 {
+#single-rb2 {
   position: relative;
   transform-style: preserve-3d;
-  animation: start-rotate 30s linear infinite;
+  animation: start-rotate 12s linear infinite;
+  animation-play-state: paused;
 }
 
 .front-side {
@@ -92,7 +92,32 @@
   }
 }
 
-.tom-left, .tom-back, .cam-left, .cam-back{
-    transform: rotateY(180deg);
-  
+.tom-left,
+.tom-back,
+.cam-left,
+.cam-back {
+  transform: rotateY(180deg);
+}
+
+.button {
+  color: #120309 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 2px solid #120309 !important;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  outline: none;
+}
+.button-container {
+  margin-top: 200px;
+  margin-left: -50px;
+}
+
+.button:hover {
+  color: #120309 !important;
+  background: #8e443d;
+  border-color: white !important;
+  transition: all 0.4s ease 0s;
 }

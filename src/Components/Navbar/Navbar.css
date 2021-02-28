@@ -1,16 +1,35 @@
 .nav {
-    background-color: #8E443D;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #8e443d;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid white;
 }
 
-.btn{
-    margin: 5px;
-    color: #120309;
-    background-color: #8E443D;
+.btn {
+  margin: 5px;
+  color: #120309 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #8e443d;
+  padding: 10px;
+  border: 1px solid #120309;
+  display: inline-block;
+  transition: all 0.4s ease 0s;
+  outline: none;
 }
 .btn:hover {
-    color: white;
+  color: white !important;
+  background: #8e443d;
+  border-color: white !important;
+  transition: all 0.4s ease 0s;
+}
+
+#tom-nav {
+  margin-left: 10%;
+}
+
+#cam-nav {
+  margin-right: 10%;
 }

@@ -13,17 +13,24 @@
 .second-row {
   border: 1px solid black;
   display: flex;
-  margin: 10px;
+  margin: 20px;
 }
 
 .ep-button {
-  outline: none;
-  color: white;
-  transition: ease-in-out 0.5s;
-  background: black;
-  height: 50px;
-  width: 50px;
-  margin: 5px;
+  color: #120309 !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 20px;
+  border: 1px solid #120309 !important;
   display: inline-block;
+  transition: all 0.4s ease 0s;
+  outline: none;
 }
 
+.ep-button:hover {
+  color: white;
+  background: #120309;
+  border-color: white;
+  transition: all 0.4s ease 0s;
+}
